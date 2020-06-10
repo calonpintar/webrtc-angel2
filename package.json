@@ -16,9 +16,6 @@
     "start": "node server.js",
     "test": "mocha --exit test/*.test.js"
   },
-  "dependencies": {
-    "express": "^4.16.3"
-  },
   "devDependencies": {
     "mocha": "^7.0.0",
     "supertest": "^4.0.2"
