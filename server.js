@@ -43,7 +43,12 @@ app.listen(PORT, () => {
   console.log('Press Ctrl+C to quit.');
 });
 // [END gae_node_request_example]
+const handleRequest = function(request, response) {
+  // Render the single client html file for any request the HTTP server receives
+  console.log('request received: ' + request.url);
 
+  };
+  
 const httpsServer = https.createServer(serverConfig, handleRequest);
 httpsServer.listen(HTTPS_PORT, '0.0.0.0');
 
