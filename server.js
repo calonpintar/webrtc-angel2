@@ -21,7 +21,7 @@ const WebSocket = require('ws');
 const WebSocketServer = WebSocket.Server;
 
 // [START gae_node_request_example]
-//const express = require('express');
+const express = require('express');
 
 const app = express();
 
