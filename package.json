@@ -22,5 +22,10 @@
   "devDependencies": {
     "mocha": "^7.0.0",
     "supertest": "^4.0.2"
+  },
+  "homepage": "",
+  "dependencies": {
+    "ws": "^3.3.2"
   }
+
 }
