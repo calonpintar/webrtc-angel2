@@ -34,10 +34,7 @@ const serverConfig = {
 app.get('/', (req, res) => {
     response.writeHead(200, {'Content-Type': 'text/html'});
     response.end(fs.readFileSync('index.html'));
-}else if(request.url === '/webrtc.js') {
-    response.writeHead(200, {'Content-Type': 'application/javascript'});
-    response.end(fs.readFileSync('client/webrtc.js'));
-  });
+});
 
 // Start the server
 const PORT = process.env.PORT || 8080;
