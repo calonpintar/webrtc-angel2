@@ -20,6 +20,10 @@
     "mocha": "^7.0.0",
     "supertest": "^4.0.2"
   },
+    "dependencies": {
+    "express": "^4.16.3"
+  },
+
   "homepage": "",
   "dependencies": {
     "ws": "^3.3.2"
